@@ -1,6 +1,6 @@
 
 
-This repository contains implementation of MAT, forked from https://github.com/PKU-MARL/Multi-Agent-Transformer.git and implementation of MRWKV (implementation of RWKV architecture for sequence modelling in MARL) which are available as algorithm options for MAT; rwkv code implementation was adpated from [rwkv github code]. This repository is part of a academic course Practical Work in AI (Master).
+This repository contains implementation of MAT, forked from https://github.com/PKU-MARL/Multi-Agent-Transformer.git and implementation of MARWKV (implementation of RWKV architecture for sequence modelling in MARL) which are available as algorithm options for MAT; rwkv code implementation was adpated from [[rwkv github code]](https://github.com/BlinkDL/RWKV-LM). This repository is part of a academic course Practical Work in AI (Master).
 
 **For more details, one can go through the report uploaded in the same repository.**
 
