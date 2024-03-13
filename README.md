@@ -44,7 +44,7 @@ If you would like to change the configs of experiments, you could modify sh file
 
 ### SMAC challenge
 ![Perfromance of MAT and MARWKV hard SMAC maps](images/hard_smac.jpg)
-![Performance of MAT and MARWKV on very hard SMAC maps](images/hard_plus_smac.jpg)
+![Performance of MAT and MARWKV on very hard SMAC maps](images/hard_plus_smac.JPG)
 
 ### MuJoCo challenge
 ![Performance on halfcheetah challenge](images/mujoco_mat_rwkv.jpg)
