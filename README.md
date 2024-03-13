@@ -40,3 +40,15 @@ When the environment is ready, one could run shells in the "scripts" folder with
 ```
 If you would like to change the configs of experiments, you could modify sh files or look for config.py for more details.
 
+## Some experiments results
+
+### SMAC challenge
+![Perfromance of MAT and MARWKV hard SMAC maps](images/hard_smac.jpg)
+![Performance of MAT and MARWKV on very hard SMAC maps](images/hard_plus_smac.jpg)
+
+### MuJoCo challenge
+![Performance on halfcheetah challenge](images/mujoco_mat_rwkv.jpg)
+![Performance on halfcheetah with disabled joints](images/disabled_rwkv.JPG)
+
+### Bidex hands Challenge
+![Perfromance on bidex hands challenges](images/bidex2.JPG)
