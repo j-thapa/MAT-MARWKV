@@ -41,32 +41,34 @@ When the environment is ready, one could run shells in the "scripts" folder with
 If you would like to change the configs of experiments, you could modify sh files or look for config.py for more details.
 
 ## MAT and MARWKV architecture
-
-![MAT](images/MAT_arch.JPG)
 *MAT encoder-decodeer*
+![MAT](images/MAT_arch.JPG)
 
-![MARWKV encoder](images/encoder.png)
 *MARWKV encoder*
+![MARWKV encoder](images/encoder.png)
 
-![MARWKV decoder](decoder.jpg)
 *MARWKV decoder*
+![MARWKV decoder](images/decoder.jpg)
+
 
 ## Some experiments results
 
 ### SMAC challenge
+*Performance of MAT and MARWKV on hard SMAC maps*
 ![Performance of MAT and MARWKV hard SMAC maps](images/hard_smac.jpg)
-*Performance of MAT and MARWKV hard SMAC maps*
 
+*Performance of MAT and MARWKV on very hard SMAC maps*
 ![Performance of MAT and MARWKV on very hard SMAC maps](images/hard_plus_smac.JPG)
-*erformance of MAT and MARWKV on very hard SMAC maps*
+
 ### MuJoCo challenge
-
-![Performance on halfcheetah challenge](images/mujoco_mat_rwkv.jpg)
 *Performance on halfcheetah challenge*
+![Performance on halfcheetah challenge](images/mujoco_mat_rwkv.jpg)
 
-![Performance on halfcheetah with disabled joints](images/disabled_rwkv.JPG)
 *Performance on halfcheetah with disabled joints*
+![Performance on halfcheetah with disabled joints](images/disabled_rwkv.JPG)
+
 
 ### Bidex hands Challenge
-![Performance on bidex hands challenges](images/bidex2.JPG)
 *Performance on bidex hands challenges*
+![Performance on bidex hands challenges](images/bidex2.JPG)
+
