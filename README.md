@@ -40,15 +40,33 @@ When the environment is ready, one could run shells in the "scripts" folder with
 ```
 If you would like to change the configs of experiments, you could modify sh files or look for config.py for more details.
 
+## MAT and MARWKV architecture
+
+![MAT](images/MAT_arch.JPG)
+*MAT encoder-decodeer*
+
+![MARWKV encoder](images/encoder.png)
+*MARWKV encoder*
+
+![MARWKV decoder](decoder.jpg)
+*MARWKV decoder*
+
 ## Some experiments results
 
 ### SMAC challenge
-![Perfromance of MAT and MARWKV hard SMAC maps](images/hard_smac.jpg)
-![Performance of MAT and MARWKV on very hard SMAC maps](images/hard_plus_smac.JPG)
+![Performance of MAT and MARWKV hard SMAC maps](images/hard_smac.jpg)
+*Performance of MAT and MARWKV hard SMAC maps*
 
+![Performance of MAT and MARWKV on very hard SMAC maps](images/hard_plus_smac.JPG)
+*erformance of MAT and MARWKV on very hard SMAC maps*
 ### MuJoCo challenge
+
 ![Performance on halfcheetah challenge](images/mujoco_mat_rwkv.jpg)
+*Performance on halfcheetah challenge*
+
 ![Performance on halfcheetah with disabled joints](images/disabled_rwkv.JPG)
+*Performance on halfcheetah with disabled joints*
 
 ### Bidex hands Challenge
-![Perfromance on bidex hands challenges](images/bidex2.JPG)
+![Performance on bidex hands challenges](images/bidex2.JPG)
+*Performance on bidex hands challenges*
