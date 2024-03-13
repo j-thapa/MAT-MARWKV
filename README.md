@@ -41,7 +41,7 @@ When the environment is ready, one could run shells in the "scripts" folder with
 If you would like to change the configs of experiments, you could modify sh files or look for config.py for more details.
 
 ## MAT and MARWKV architecture
-*MAT encoder-decodeer*
+*MAT encoder-decoder*
 ![MAT](images/MAT_arch.JPG)
 
 *MARWKV encoder*
