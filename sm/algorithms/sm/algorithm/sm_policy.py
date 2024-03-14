@@ -223,7 +223,9 @@ class SMPolicy:
         return actions, rnn_states_actor
 
     def save(self, save_dir, episode):
-        torch.save(self.seq_model.state_dict(), str(save_dir) + self.seq_model_" + str(episode) + ".pt")
+        torch.save(self.seq_model.state_dict(), str(save_dir) + "/seq_model_" + str(episode) + ".pt")
+
+
 
     # def restore(self, model_dir):
     #  seq_model_state_dict = torch.load(model_dir)
@@ -233,7 +235,8 @@ class SMPolicy:
 
 
     def restore(self, model_dir):
-        # Load the state dict from the fileseq_model_state_dict = torch.load(model_dir)
+        # Load the state dict from the file 
+        seq_model_state_dict = torch.load(model_dir)
         
         # Get the current state dict of the model
         model_state_dict = self.seq_model.state_dict()
@@ -244,7 +247,7 @@ class SMPolicy:
         
         # Create a new state dict with only the matching parameters
         new_state_dict = {}
-        for k, v seq_model_state_dict.items():
+        for k, v in seq_model_state_dict.items():
             if k in model_state_dict and model_state_dict[k].size() == v.size():
                 new_state_dict[k] = v
                 loaded_keys.append(k)  # Log loaded key
@@ -267,7 +270,7 @@ class SMPolicy:
             print("Skipped parameters due to size mismatch:")
             for key in skipped_keys:
                 print(f" - {key}")
-        time.sleep(22)
+        time.sleep(12)
 
     def train(self):
         self.seq_model.train()
